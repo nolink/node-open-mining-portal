@@ -12,9 +12,9 @@
         "litecoin",
         "scrypt"
     ],
-    "homepage": "https://github.com/foxer666/node-open-mining-portal",
+    "homepage": "https://github.com/nolink/node-open-mining-portal",
     "bugs": {
-        "url": "https://github.com/foxer666/node-open-mining-portal/issues"
+        "url": "https://github.com/nolink/node-open-mining-portal/issues"
     },
     "license": "GPL-2.0",
     "author": "Matthew Little",
@@ -31,12 +31,13 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/foxer666/node-open-mining-portal.git"
+        "url": "https://github.com/nolink/node-open-mining-portal.git"
     },
     "dependencies": {
         "async": "^2.5.0",
         "bignumber.js": "^6.0.0",
         "body-parser": "^1.18.2",
+        "cnpm": "^5.2.0",
         "colors": "^1.1.2",
         "compression": "^1.7.1",
         "dateformat": "^2.2.0",
@@ -48,7 +49,7 @@
         "nonce": "^1.0.4",
         "redis": "^2.7.1",
         "request": "^2.83.0",
-        "stratum-pool": "git://github.com/foxer666/node-stratum-pool.git",
+        "stratum-pool": "git://github.com/nolink/node-stratum-pool.git#carrot",
         "winston": "^3.0.0-rc1",
         "winston-daily-rotate-file": "^2.0.0-rc.2"
     },
